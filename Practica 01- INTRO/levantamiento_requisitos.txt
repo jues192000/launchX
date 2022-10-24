@@ -1,0 +1,21 @@
+ejemplo requisitos
+
+Historia de usuario
+
+FEATURE :  Gestion Demanda			
+HISTORIA 1: Crear demanda		
+ID:1	
+Descripción Historia de Usuario:		
+COMO cliente de Abog s.a.s QUIERO poder crear una demanda PARA poder empezar la gestion por parte del abogado
+
+Criterios  de Aceptación:
+1.el usuario debe ingresar los siguiente campos:
+  nombre: obligatorios
+  cedula: obligatorio
+  telefono: obligatorio
+  tipo demanda : obligatorio
+  descripcion: obligatorio
+  adjuntar documentos: el sistema debe permitir adjuntar documentos en formato pdf maximo tamaño 100 MB, maximo 10 documentos minimo 1
+2. si el usuario presiona el boton pagar, el sistema debe validar los campos obligatorios, sino debe sacar un mensaje informando que falta informacion
+3. si el usuario presiona el boton cancelar, el sistema debe preguntar esta seguro que desea salir? si dice si lo lleva al home.
+
